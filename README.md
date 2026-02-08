@@ -1,8 +1,11 @@
 # Bidirectional LSTM for Sequence Classification
 
-## 📌 Project Overview
-This project implements a Deep Learning model to classify text sequences using **TensorFlow** and **Keras**. It utilizes a **Bidirectional Long Short-Term Memory (LSTM)** network, which processes sequence data in both forward and backward directions to capture long-term dependencies and context more effectively than standard RNNs.
+# Spam Email Detection with Bidirectional LSTM
 
+## 📌 Project Overview
+This project implements a Deep Learning model to classify emails as **Spam** or **Non-Spam (Ham)** with high precision. It utilizes a **Bidirectional Long Short-Term Memory (LSTM)** network, which processes text in both forward and backward directions to understand the context of an email better than standard keyword filters.
+
+To ensure optimal performance, this project integrates **Keras Tuner** to automatically search for the best hyperparameters (learning rate, embedding dimension, and LSTM units) rather than relying on manual guesswork.
 To ensure optimal performance, this project integrates **Keras Tuner** to automatically search for the best hyperparameters (learning rate, embedding dimension, and LSTM units) rather than relying on manual guesswork.
 
 ## 🚀 Key Features
