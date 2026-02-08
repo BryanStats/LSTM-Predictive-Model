@@ -32,12 +32,15 @@ The model consists of the following layers:
 The model was trained with an 80/20 train-test split. 
 * **Optimization Metric:** Validation Accuracy
 * **Final Test Accuracy:** 98.7%
-
 ## 💻 How to Run
 
-1. **Clone the repository:**
+1. **Clone the repository and install dependencies:**
    ```bash
    git clone https://github.com/BryanStats/LSTM-Predictive-Model.git
+   cd LSTM-Predictive-Model
    pip install tensorflow pandas scikit-learn keras-tuner
+   ```
+2. **Run the Jupyter Notebook:**
+   ```bash
    jupyter notebook "LSTM_Sequence_Classification.ipynb"
-
+   ```
