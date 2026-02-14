@@ -40,7 +40,4 @@ The model was trained with an 80/20 train-test split.
    cd LSTM-Predictive-Model
    pip install tensorflow pandas scikit-learn keras-tuner
    ```
-2. **Run the Jupyter Notebook:**
-   ```bash
-   jupyter notebook "LSTM_Sequence_Classification.ipynb"
-   ```
+
